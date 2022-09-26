@@ -2,14 +2,14 @@ import java.util.*;
 
 public class AddressBook {
 
-    ArrayList<BuddyInfo> objectCollections = new ArrayList<BuddyInfo>();
+    ArrayList<BuddyInfo> BuddyInfos = new ArrayList<BuddyInfo>(); // change to buddyInfo
 
     // check these two methods
     public void addBuddy(BuddyInfo obj){
-        objectCollections.add(obj);
+        BuddyInfos.add(obj);
     }
     public void removeBuddy(BuddyInfo obj){
-        objectCollections.remove(obj);
+        BuddyInfos.remove(obj);
     }
 
     public static void main(String[] args) {
