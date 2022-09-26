@@ -1,6 +1,8 @@
 import java.util.*;
 
 public class AddressBook {
+    
+    // Text to file added outside of intellj
 
     ArrayList<BuddyInfo> BuddyInfos = new ArrayList<BuddyInfo>(); // change to buddyInfo
 
