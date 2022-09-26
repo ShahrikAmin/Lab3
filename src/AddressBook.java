@@ -14,6 +14,11 @@ public class AddressBook {
         BuddyInfos.remove(obj);
     }
 
+    // lab3 new branch test.
+    public void lab3NewBranch(){
+
+    }
+
     public static void main(String[] args) {
         System.out.println("Address Book");
         BuddyInfo buddy = new BuddyInfo("Tom", "Carleton", "613");
